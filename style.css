@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header{
+background-color: blue;
+text-decoration-color:whitesmoke;
+text-align: center;
+padding: 30px;
+}
+
+h2{background-color: red;
+    text-align: center;   
+    text-decoration-color:white ;
+}
+.Features{display: flex;
+    gap: 20px;
+    border:1px; solid: red;
+    justify-content:center; 
+    
+}
+
+footer{background-color: red;
+}
+
+
+@media only screen and (max-width:768px) {
+    .header{
+        background-color:blue;
+        text-align: center;
+        padding: 30px;
+        }
+        h2{background-color: red;
+            text-align: center;   
+            text-decoration-color:white ;
+        }
+    }
+    .Features{display: inline-table;
+              width: 100%;
+    }
+    
+}
+
